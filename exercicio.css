@@ -1,0 +1,141 @@
+body{
+	margin:4; 
+	font-family: 'Cabin Sketch', cursive;
+	background-color: #c2c2ff;
+}
+#menu ul{
+	margin:0;
+	background-color:#f056f0;
+	list-style:none;
+}
+#menu ul li{
+	display:inline;
+}
+#menu ul li a{
+	padding:8px 15px;
+	display:inline-block;
+	color: white;
+	text-decoration:none;
+	font-size: 30px;
+}
+#menu ul li a:hover{
+	color:#c2c2ff;
+}
+.bg-roxo{
+	background: #f056f0;
+}
+img{
+	width: 100px;
+}
+.bg-azulclaro{
+	background: #99ccff;
+}
+#imgbemvindo{
+	width: 500px;
+	margin-top: 100px;
+}
+p{
+	font-family: 'Baloo Tammudu 2', cursiva;
+	font-size: 19px;
+	text-align: justify;
+}
+#imgprofissional{
+	width: 508px; 
+	height: 408px;
+	float: left;
+	margin-right: 6px;
+}
+.frente{
+	display: block;
+}
+.flipped .frente{
+    display: none;
+}
+.fundo{
+	display: none;
+}
+.flipped .fundo{
+	display: block;
+}
+.image-flip{
+	display: inline;
+}
+#imgfileira{
+	width: 300px;
+	height: 194px;
+	margin-right: 50px;
+}
+.bg-lilas{
+	background: #c2c2ff;
+}
+#imgflip{
+	display: inline-block;
+}
+#imgpessoal{
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.container{
+	display: flex;
+	align-items: center;
+}
+#imgpessoal2{
+	width: 300px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#texto2{
+	font-family: 'Baloo Tammudu 2', cursiva;
+	font-size: 19px;
+	text-align: justify;
+	width: 716px;
+	height: 148px;
+	margin-left: 50px;
+}
+.container{
+	display: flex;
+	align-items: center;
+}
+#textorodape{
+	font-size: 15px;
+	color: white;
+}
+.footer{
+	height: 150px;
+	background:#f056f0;
+}
+#titulorodape{
+	color: white;
+}
+#contprof{
+	display: flex;
+	align-items: center;
+}
+.bg-cinza{
+	background-color: #f2f2f2;
+}
+#imgpersonagens{
+	width: 300px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.zoom{
+	overflow: hidden;
+}
+.zoom img{
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition:all 0.3s;
+	transition: 0.3s;
+}
+.zoom:hover img{
+	-moz-transition: scale(1.1);
+	-webkit-transition:scale(1.1);
+	transform: scale(1.1);
+}
+#imgcarrossel2{
+	width: 400px;
+	height: 400pxss;
+}
